@@ -18,7 +18,7 @@
          void movement() override{
             std::cout << "I move by wallking " << std::endl;
         }
-         ~Mammal() {
+         ~Mammal() override {
 
          }
     };
@@ -30,7 +30,8 @@
        void movement () override {
             std::cout << "I move by swimming " << std::endl;
         }
-        ~Fish() {
+        ~Fish() override {
+        {
             
         }
     };
@@ -42,7 +43,7 @@
              void movement() override {
                 std::cout << "I move by flying " << std::endl;
             }
-            ~Bird()  {
+            ~Bird() override {
 
             }
         
@@ -55,7 +56,7 @@
             void movement() override {
                 std::cout << "I move by wallking " << std::endl;
             }
-            ~Rat() {
+            ~Rat() override {
 
             }
         };
@@ -67,7 +68,7 @@
             void movement() override {
                 std::cout << "I move by crawling " << std::endl;
             }
-            ~Snake() {
+            ~Snake() override {
 
             }
         };
@@ -79,7 +80,7 @@
             void movement() override {
                 std::cout << "I move by jumping " << std::endl;
             }
-            ~Kangaroo() {
+            ~Kangaroo() override {
 
             }
         };
@@ -91,7 +92,7 @@
             void movement() override {
                 std::cout << "I move by wallking " << std::endl;
             }
-            ~Lion() {
+            ~Lion() override {
 
             }
         };
